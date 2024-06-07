@@ -1,0 +1,127 @@
+/* DESKTOP VERSION */
+
+/* HEADER  */
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0 145px;
+}
+.menu_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.search_container {
+    position: relative;
+}
+
+.search {
+    background-color: var( --color-gray-1);
+    color: var(--color-gray-6);
+    font-size: 16px;
+    border: none;
+    border-radius: 22px;
+    width: 261px;
+    height: 42px;
+    padding: 10px 50px 10px 20px;
+    box-sizing: border-box;
+}
+
+.search_icon {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+}
+
+.line {
+    width: 100%;
+    box-shadow: 0px 5px 10px var( --color-transparent-4);
+    border: 1px solid var(--color-gray-2);
+}
+
+/* NAV  */
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    margin: 16px 145px;
+    overflow-x: scroll;
+}
+
+.nav_container::-webkit-scrollbar {
+    scrollbar-width: none;
+}
+
+.larger_item {
+    width: 120px;
+}
+
+.nav_container a {
+    display: flex;
+    align-items: center;
+    height: 33px;
+    padding: 5px 15px;
+    border-radius: 90px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-gray-6);
+}
+
+#color_1:hover {
+    background-color: var(--color-green-1);
+}
+
+#color_2:hover {
+    background-color: var(--color-blue-4);
+}
+
+#color_3:hover {
+    background-color: var(--color-red-0);
+}
+
+#color_4:hover {
+    background-color: var(--color-orange-1);
+}
+
+#color_5:hover {
+    background-color: var(--color-blue-2);
+}
+
+#color_6:hover {
+    background-color: var(--color-blue-0);
+}
+
+#color_7:hover {
+    background-color: var(--color-pink-0);
+}
+
+#color_8:hover {
+    background-color: var(--color-pink-2);
+}
+
+#color_9:hover {
+    background-color: var(--color-pink-0);
+}
+
+#color_10:hover {
+    background-color: var(--color-orange-0);
+}
+
+#color_11:hover {
+    background-color: var(--color-blue-5);
+}
+
+.nav_container a:hover {
+    color: var(--color-white);
+    transition: ease-in-out;
+    transition-duration: .5s;
+}
