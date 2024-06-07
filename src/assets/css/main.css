@@ -125,3 +125,31 @@
     transition: ease-in-out;
     transition-duration: .5s;
 }
+
+/* SECTION  */
+
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 16px 0 16px 145px;
+    overflow-x: scroll;
+}
+
+.header_section::-webkit-scrollbar {
+    display: none;
+}
+
+.header_section article {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 75px;
+    gap: 14px;
+}
+
+.header_section article p {
+    line-height: 20px;
+    width: 216px;
+}
