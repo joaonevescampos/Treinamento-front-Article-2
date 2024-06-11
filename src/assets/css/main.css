@@ -203,7 +203,7 @@ main {
   line-height: 23px;
 }
 
-.main_line {
+.simple_line {
   width: 100%;
   border: 1px solid var(--color-gray-2);
 }
@@ -340,4 +340,107 @@ figure {
 
 .picture {
   margin-top: 34px;
+}
+
+.title1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-gray-6);
+  line-height: 32px;
+}
+
+.video {
+  border-radius: 10px;
+}
+
+.survey {
+  width: 480px;
+  height: 286px;
+  font-size: 16px;
+  color: var(--color-gray-8);
+  padding: 22px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 15px var(--color-transparent-1);
+  border: 1px solid var(--color-gray-0);
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.question {
+  color: var(--color-green-0);
+  font-size: 24px;
+  font-weight: 700;
+  width: 312px;
+  height: 63px;
+  line-height: 30px;
+}
+
+.option {
+  margin: 14px 0;
+}
+
+button {
+  width: 436px;
+  height: 42px;
+  background-color: var(--color-green-0);
+  border-radius: 8px;
+  border: none;
+  color: var(--color-white);
+  text-align: start;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.title2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-gray-8);
+  line-height: 32px;
+  margin: 20px 0;
+}
+
+.topics {
+  display: flex;
+  gap: 12px;
+}
+
+.topics h3 {
+  background-color: var(--color-gray-1);
+  padding: 4px 12px;
+  border-radius: 17px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-gray-8);
+}
+
+.ads_google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 436px;
+  height: 133px;
+  background: transparent linear-gradient(92deg, #268F94 0%, #335F95 37%, #7F498D 100%) 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  margin: 38px 0 64px 0;
+  color: var(--color-white);
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.ads_google p {
+  width: 388px;
+  height: 89px;
+}
+
+.link {
+  color: var(--color-white);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.google_icon {
+  position: absolute;
+  top: 90px;
+  left: 400px;
 }
