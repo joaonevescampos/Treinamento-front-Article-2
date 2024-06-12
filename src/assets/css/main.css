@@ -159,7 +159,8 @@
 
 aside {
   position: absolute;
-  left: calc(100% - 350px);
+  top: 370px;
+  left: calc(100% - 445px);
   display: flex;
   flex-direction: column;
   gap: 34px;
