@@ -315,10 +315,10 @@
       </div>
     </main>
     <footer>
-        <nav>
+        <nav class="nav_footer">
           <section>
             <h1>Editorias</h1>
-            <ul>
+            <ul class="nav_footer_items">
               <li>Capas</li>
               <li>Polícia</li>
               <li>Política</li>
@@ -334,7 +334,7 @@
           </section>
           <section>
             <h1>Cidades</h1>
-            <ul>
+            <ul class="nav_footer_items">
               <li>Rio de Janeiro</li>
               <li>Niterói</li>
               <li>São Gonçalo</li>
@@ -348,7 +348,7 @@
           </section>
           <section>
             <h1>Colunas</h1>
-            <ul>
+            <ul class="nav_footer_items">
               <li>Direito e Muito Mais</li>
               <li>Carreiras & Negócios</li>
               <li>Questão de Justiça</li>
@@ -361,7 +361,7 @@
           </section>
           <section>
             <h1>Links</h1>
-            <ul>
+            <ul class="nav_footer_items">
               <li>Quem somos</li>
               <li>Anuncie aqui</li>
               <li>Atos e editais</li>
@@ -372,36 +372,41 @@
               <li>Expediente</li>
             </ul>
           </section>
-          <div>
-            <div>
-              <img src="./assets/images/icons/facebook-2.svg" alt="facebook" />
-              <img
-                src="./assets/images/icons/instagram-2.svg"
-                alt="instagram"
-              />
-              <img src="./assets/images/icons/x.svg" alt="x" />
-              <img
-                src="./assets/images/icons/youtube-[#168].svg"
-                alt="youtube"
-              />
+          
+          <div class="references">
+            <div class="icons_container">
+              <div class="circle_icon"><img src="./assets/images/icons/facebook-2.svg" alt="facebook" />
+            </div>
+              <div class="circle_icon">
+                  <img
+                    src="./assets/images/icons/instagram-2.svg"
+                    alt="instagram"
+                  />
+              </div>
+              <div class="circle_icon"><img src="./assets/images/icons/x.svg" alt="x" />
+            </div>
+              <div class="circle_icon">
+                  <img
+                    src="./assets/images/icons/youtube.svg"
+                    alt="youtube"
+                  />
+              </div>
             </div>
             <div>
+                <img src="./assets/images/icons/ajor.png" alt="ajor" class="ajor">
+            </div>
+            <div class="rights">
               <img
                 src="./assets/images/icons/developed by mundiware.svg"
                 alt="mundiware"
               />
-            </div>
-            <div>
-              <span>Developed by</span>
-              <img src="" alt="" />
-            </div>
-            <div>
-              <span>Designed by</span>
               <img src="./assets/images/icons/designed by golab.svg" alt="go" />
             </div>
           </div>
         </nav>
-        <span>2024 - Enfoco. Todos os direitos reservados.</span>
+        <div class="copyright">
+            <span>2024 - Enfoco. Todos os direitos reservados.</span>
+        </div>
       </footer>
   </body>
 </html>
