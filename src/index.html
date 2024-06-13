@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/globals.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/aside.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -75,48 +79,61 @@
       </article>
     </section>
     <hr class="line" />
-
+    <aside class="aside_social_medias">
+      <a href="#">
+        <img src="./assets/images/icons/facebook.png" alt="facebook">
+      </a>
+      <a href="#">
+        <img src="./assets/images/icons/instagram.png" alt="instagram">
+      </a>
+      <a href="#">
+        <img src="./assets/images/icons/x.png" alt="x">
+      </a>
+      <a href="#">
+        <img src="./assets/images/icons/whatsapp.png" alt="whatsapp">
+      </a>
+    </aside>
+    <aside class="aside_ads">
+      <div>
+          <img src="./assets/images/pictures/ads-300x250.png" alt="ads1">
+      </div>
+      <div>
+          <img src="./assets/images/pictures/ads-300x600.png" alt="ads2">
+      </div>
+      <div class="last_news">
+          <h1 class="last_new_title">Últimas notícias</h1>
+          <article>
+              <img src="./assets/images/pictures/last1.png" alt="imagem 1">
+              <h2>Julgamento do bicheiro Piruinha é adiado após pedido do MPRJ</h2>
+          </article>
+          <article>
+              <img src="./assets/images/pictures/last2.png" alt="imagem 2">
+              <h2>Vai faltar água em 14 bairros do Rio; saiba quem deve economizar</h2>
+          </article>
+          <article>
+              <img src="./assets/images/pictures/last3.png" alt="imagem 3">
+              <h2>Ex-cozinheira processa Glória Pires e pede compensação milionária</h2>
+          </article>
+          <article>
+              <img src="./assets/images/pictures/last4.png" alt="imagem 4">
+              <h2>Exames da Cedae mostram que tolueno está diminuindo na água</h2>
+          </article>
+          <article>
+              <img src="./assets/images/pictures/last5.png" alt="imagem 5">
+              <h2>Influencer viraliza ao buscar ‘marido rico’ dentro de avião; vídeo</h2>
+          </article>
+          <article>
+              <img src="./assets/images/pictures/last6.png" alt="imagem 6">
+              <h2>Disco voador? Nuvem no formato do MAC chama atenção em Niterói</h2>
+          </article>
+          <article>
+              <img src="./assets/images/pictures/last7.png" alt="imagem 7">
+              <h2>Bia toma punição e coloca a casa toda no ‘Tá com Nada’ novamente</h2>
+          </article>
+      </div>
+    </aside>
+    
     <main>
-      <aside>
-        <div>
-            <img src="./assets/images/pictures/ads-300x250.png" alt="ads1">
-        </div>
-        <div>
-            <img src="./assets/images/pictures/ads-300x600.png" alt="ads2">
-        </div>
-        <div class="last_news">
-            <h1 class="last_new_title">Últimas notícias</h1>
-            <article>
-                <img src="./assets/images/pictures/last1.png" alt="imagem 1">
-                <h2>Julgamento do bicheiro Piruinha é adiado após pedido do MPRJ</h2>
-            </article>
-            <article>
-                <img src="./assets/images/pictures/last2.png" alt="imagem 2">
-                <h2>Vai faltar água em 14 bairros do Rio; saiba quem deve economizar</h2>
-            </article>
-            <article>
-                <img src="./assets/images/pictures/last3.png" alt="imagem 3">
-                <h2>Ex-cozinheira processa Glória Pires e pede compensação milionária</h2>
-            </article>
-            <article>
-                <img src="./assets/images/pictures/last4.png" alt="imagem 4">
-                <h2>Exames da Cedae mostram que tolueno está diminuindo na água</h2>
-            </article>
-            <article>
-                <img src="./assets/images/pictures/last5.png" alt="imagem 5">
-                <h2>Influencer viraliza ao buscar ‘marido rico’ dentro de avião; vídeo</h2>
-            </article>
-            <article>
-                <img src="./assets/images/pictures/last6.png" alt="imagem 6">
-                <h2>Disco voador? Nuvem no formato do MAC chama atenção em Niterói</h2>
-            </article>
-            <article>
-                <img src="./assets/images/pictures/last7.png" alt="imagem 7">
-                <h2>Bia toma punição e coloca a casa toda no ‘Tá com Nada’ novamente</h2>
-            </article>
-        </div>
-      </aside>
-
       <div class="nav_information">
         <a href="#">Home</a>
         <p>&gt;</p>
@@ -149,7 +166,7 @@
       <figure>
         <img
           src="./assets/images/pictures/cristo-desktop.png"
-          alt="cristo redentor"
+          alt="cristo redentor" class="statue_img"
         />
         <figcaption class="figcaption">
           A chegada da corrida será aos pés do Cristo Redentor | Foto:
@@ -259,9 +276,7 @@
         <button>Enviar</button>
         </div>
       </div>
-
       <hr class="simple_line" />
-
       <h2 class="title2">Tags</h2>
       <span class="topics">
         <h3>Meia maratona do Cristo</h3>

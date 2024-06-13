@@ -1,0 +1,46 @@
+/* ASIDE  */
+.aside_social_medias {
+    position: absolute;
+    top: 320px;
+    left: 53px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.aside_ads {
+    position: absolute;
+    top: 370px;
+    left: calc(100% - 445px);
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+  }
+  .last_news {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+  }
+  
+  .last_news_title {
+    color: var(--color-gray-6);
+    font-size: 32px;
+    line-height: 48px;
+  }
+  
+  .last_news article {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .last_news h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  
+  .last_news article h2 {
+    line-height: 20px;
+  }
+  
