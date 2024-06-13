@@ -1,3 +1,5 @@
+/* DESKTOP VERSION  */
+
 .nav_container {
     display: flex;
     justify-content: space-between;
@@ -102,4 +104,13 @@
   .header_section article p {
     line-height: 20px;
     width: 216px;
+  }
+
+  .blur_effect {
+    position: absolute;
+    background: transparent linear-gradient(90deg, #ffffff00 0%, #fff 100%) 0% 0% no-repeat padding-box;
+    width: 100px;
+    height: 107px;
+    right: 0;
+    top: 190px;
   }

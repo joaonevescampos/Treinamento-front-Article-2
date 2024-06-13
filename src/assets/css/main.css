@@ -3,6 +3,7 @@
 main {
   margin-left: 145px;
   margin-right: 481px;
+  max-width: 1200px;
 }
 
 .nav_information {

@@ -1,3 +1,4 @@
+/* DESKTOP VERSION  */
 .header_container {
     display: flex;
     justify-content: space-between;
@@ -42,5 +43,4 @@
     box-shadow: 0px 5px 10px var(--color-transparent-4);
     border: 1px solid var(--color-gray-2);
   }
-  
   
