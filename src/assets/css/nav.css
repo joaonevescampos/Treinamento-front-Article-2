@@ -114,3 +114,9 @@
     right: 0;
     top: 190px;
   }
+
+  @media screen and (max-width: 992px) {
+    .desktop_item {
+        display: none;
+    }
+  }

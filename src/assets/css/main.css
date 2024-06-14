@@ -182,7 +182,7 @@ figure {
   text-align: center;
 }
 
-.picture {
+.main_ads2 {
   margin-top: 34px;
 }
 
@@ -194,6 +194,8 @@ figure {
 }
 
 .video {
+  width: 864px;
+  height: 486px;
   border-radius: 10px;
 }
 
@@ -380,4 +382,140 @@ button {
   font-size: 20px;
   color: var(--color-gray-8);
   line-height: 28px;
+}
+
+/* DESKTOP  */
+@media screen and (min-width: 1280px) and (max-width: 1489px) {
+  main {
+    margin-right: 500px;
+    width: 60%;
+  }
+
+  .main_ads1 {
+    width: 700px;
+  }
+
+  .statue_img {
+    width: 700px;
+  }
+
+  .video {
+    width: 800px;
+    height: 450px;
+  }
+
+}
+/* LAPTOP  */
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  main {
+    margin-left: 120px;
+    margin-right: 500px;
+    width: 50%;
+  }
+
+  .main_ads1 {
+    width: 100%;
+  }
+
+  .statue_img {
+    width: 100%;
+  }
+
+  .mark1 {
+    width: 400px;
+  }
+
+  .mark2 {
+    font-size: 22px;
+    width: 430px;
+  }
+
+  .mark_dimensions1 {
+    width: 500px;
+  }
+
+  .mark_dimensions2 {
+    width: 500px;
+  }
+
+  .main_ads2 {
+    width: 100%;
+  }
+
+  .video {
+    width: 600px;
+    height: 337.5px;
+  }
+
+  .nav_article {
+    height: 140px;
+  }
+
+  .nav_article h3 {
+    font-size: 16px;
+  }
+}
+
+/* TABLET  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  main {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100vw;
+  }
+
+  .main_ads1 {
+    width: 500px;
+  }
+
+  .statue_img {
+    width: 500px;
+  }
+
+  .video {
+    width: 768px;
+    height: 432px;
+  }
+
+  .nav_article_container {
+    flex-direction: column;
+  }
+
+  .nav_article h3 {
+    font-size: 16px;
+  }
+}
+
+/* SMARTPHONE  */
+@media screen and (max-width: 768px) {
+  main {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100vw;
+  }
+
+  .main_ads1 {
+    display: none;
+  }
+
+  .main_ads2 {
+    display: none;
+  }
+
+  .statue_img {
+    width: 500px;
+  }
+
+  .video {
+    width: 768px;
+    height: 432px;
+  }
+
+  .nav_article_container {
+    flex-direction: column;
+  }
+
+  .nav_article h3 {
+    font-size: 16px;
+  }
 }

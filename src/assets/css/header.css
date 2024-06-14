@@ -6,6 +6,12 @@
     height: 100px;
     margin: 0 145px;
   }
+
+  .mobile_group {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
   .menu_container {
     display: flex;
     justify-content: center;
@@ -44,3 +50,30 @@
     border: 1px solid var(--color-gray-2);
   }
   
+  /* TABLET  */
+@media screen and (max-width: 992px) {
+    .header_container {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 150px;
+    }
+    .mobile_group {
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+
+    .search {
+        width: 320px;
+        height: 38px;
+        font-size: 12px;
+    }
+
+    .search_icon {
+        top: 10px;
+        left: 280px;
+    }
+
+    .logo {
+        width: 190px;
+    }
+  }
