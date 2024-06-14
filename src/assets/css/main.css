@@ -266,7 +266,9 @@ button {
   position: relative;
   width: 436px;
   height: 133px;
-  background: transparent linear-gradient(92deg, #268F94 0%, #335F95 37%, #7F498D 100%) 0% 0% no-repeat padding-box;
+  background: transparent
+    linear-gradient(92deg, #268f94 0%, #335f95 37%, #7f498d 100%) 0% 0%
+    no-repeat padding-box;
   border-radius: 12px;
   margin: 38px 0 64px 0;
   color: var(--color-white);
@@ -403,7 +405,6 @@ button {
     width: 800px;
     height: 450px;
   }
-
 }
 /* LAPTOP  */
 @media screen and (min-width: 992px) and (max-width: 1280px) {
@@ -484,6 +485,10 @@ button {
   .nav_article h3 {
     font-size: 16px;
   }
+
+  .related_container {
+    flex-direction: column;
+  }
 }
 
 /* SMARTPHONE  */
@@ -517,5 +522,9 @@ button {
 
   .nav_article h3 {
     font-size: 16px;
+  }
+
+  .related_container {
+    flex-direction: column;
   }
 }
