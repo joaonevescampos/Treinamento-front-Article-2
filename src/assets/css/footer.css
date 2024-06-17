@@ -64,3 +64,11 @@ footer {
     align-items: end;
     height: 70px;
   }
+
+  /* SMARTPHONE  */
+@media screen and (max-width: 768px) {
+  .nav_footer {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
