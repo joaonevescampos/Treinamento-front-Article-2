@@ -47,39 +47,4 @@
     line-height: 20px;
   }
 
-  @media screen and (min-width: 1280px) and (max-width: 1490px){
-    .aside_ads {
-        position: absolute;
-        top: 370px;
-        left: calc(100% - 380px);
-        display: flex;
-        flex-direction: column;
-        gap: 34px;
-      }
-  }
-
-  @media screen and (min-width: 992px) and (max-width: 1280px) {
-    .aside_social_medias {
-        left: 30px;
-    }
-    .aside_ads {
-        position: absolute;
-        top: 370px;
-        left: calc(100% - 350px);
-        display: flex;
-        flex-direction: column;
-        gap: 34px;
-      }
-  }
-
-  @media screen and (max-width: 992px) {
-    .aside_ads {
-        display: none;
-      }
-
-      .aside_social_medias {
-        display: 
-        none;
-      }
-  }
   

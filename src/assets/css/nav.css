@@ -115,23 +115,3 @@
     top: 190px;
   }
 
-  @media screen and (max-width: 992px) and (min-width: 600px) {
-    .desktop_item {
-        display: none;
-    }
-    .nav_container {
-      margin: 16px 50px;
-      font-size: 14px;
-  }
-  }
-
-  @media screen and (max-width: 600px) {
-    .desktop_item {
-        display: none;
-    }
-
-    .nav_container {
-      margin: 16px 20px;
-      font-size: 14px;
-  }
-}
