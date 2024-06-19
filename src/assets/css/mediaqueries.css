@@ -705,7 +705,7 @@
     }
   .aside_social_medias {
     position: fixed;
-    top: 90%;
+    top: calc(100% - 50px);
     left: 50%;
     display: flex;
     flex-direction: row;
