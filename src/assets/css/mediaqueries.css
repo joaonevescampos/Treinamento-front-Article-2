@@ -394,7 +394,7 @@
     line-height: 23px;
   }
 
-  #title_color1 {
+  .title_color1 {
     color: var(--color-pink-0);
   }
 
@@ -402,7 +402,7 @@
     color: var(--color-orange-0);
   }
 
-  #title_color3 {
+  .title_color3 {
     color: var(--color-green-1);
   }  
 
@@ -650,7 +650,7 @@
     line-height: 23px;
   }
 
-  #title_color1 {
+  .title_color1 {
     color: var(--color-pink-0);
   }
 
@@ -658,7 +658,7 @@
     color: var(--color-orange-0);
   }
 
-  #title_color3 {
+  .title_color3 {
     color: var(--color-green-1);
   }  
 
