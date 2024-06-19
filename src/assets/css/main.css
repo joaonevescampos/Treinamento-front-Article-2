@@ -44,7 +44,7 @@ main {
   line-height: 31px;
 }
 
-.subtitle_2 {
+.date {
   font-size: 16px;
   color: var(--color-gray-8);
   margin-bottom: 15px;
@@ -179,7 +179,7 @@ figure {
   left: 570px;
 }
 
-.caption {
+.cite1 {
   color: var(--color-white);
   font-size: 16px;
   margin-top: 8px;
