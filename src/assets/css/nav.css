@@ -106,7 +106,7 @@
     width: 216px;
   }
 
-  .blur_effect {
+  .smoke_effect {
     position: absolute;
     background: transparent linear-gradient(90deg, #ffffff00 0%, #fff 100%) 0% 0% no-repeat padding-box;
     width: 100px;

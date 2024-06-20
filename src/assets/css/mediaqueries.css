@@ -70,10 +70,28 @@
     .desktop_item {
         display: none;
     }
+
     .nav_container {
       margin: 16px 50px;
       font-size: 14px;
-  }
+      gap: 0;
+    }
+
+    .nav_container a {
+      height: 26px;
+      padding: 3px 12px;
+    }
+
+    .larger_item {
+      width: 105px;
+    }
+
+    .smoke_effect {
+      right: 0;
+      top: 160px;
+      height: 80px;
+      width: 50px;
+    }
 }
   
 /* MOBILE - Nav  */
@@ -85,7 +103,24 @@
     .nav_container {
       margin: 16px 20px;
       font-size: 14px;
-  }
+      gap: 0;
+    }
+
+    .nav_container a {
+      height: 26px;
+      padding: 3px 12px;
+    }
+
+    .larger_item {
+      width: 105px;
+    }
+
+    .smoke_effect {
+      right: 0;
+      top: 160px;
+      height: 80px;
+      width: 50px;
+    }
 }
 
 /* DESKTOP - Main  */
@@ -189,16 +224,34 @@
     display: none;
   }
 
+  .nav_information {
+    font-size: 12px;
+    margin: 16px 0;
+  }
+
+  .edition {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 6px;
+  }
+
   .main_title {
     font-size: 30px;
+    line-height: 36px;
   }
 
   .subtitle_1 {
     font-size: 18px;
+    line-height: 24px;
   }
 
   .date {
     font-size: 12px;
+    line-height: 18px;
+  }
+
+  .ads_container {
+    margin-bottom: 15px;
   }
 
   .listen_article_container {
@@ -218,6 +271,8 @@
     width: 134px;
     height: 38px;
     font-size: 12px;
+    padding: 5px;
+    box-sizing: border-box;
   }
 
   .play_circle {
@@ -235,16 +290,18 @@
 
   .figcaption {
     font-size: 12px;
+    line-height: 16px;
   }
 
   .paragraph {
     width: 100%;
     font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0;
   }
 
   .citation_container {
     width: 100%;
-    
   }
 
   .citation {
@@ -289,6 +346,11 @@
     text-align: center;
   }
 
+  .title1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
   .main_ads2_container_mobile {
     display: flex;
     justify-content: center;
@@ -323,6 +385,17 @@
     width: 288px;
   }
 
+  .topics {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .topics h3 {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
   .ads_google {
     width: 300px;
     height: 114px;
@@ -352,6 +425,21 @@
 
   .related_container {
     flex-direction: column;
+    gap: 0;
+  }
+
+  .cut_img_mobile {
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 190px;
+    border-radius: 20px;
+  }
+
+  .cut_img_mobile img {
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
   }
 
   .related_section h3 {
@@ -442,16 +530,34 @@
     display: none;
   }
 
+  .nav_information {
+    font-size: 12px;
+    margin: 16px 0;
+  }
+
+  .edition {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 6px;
+  }
+
   .main_title {
     font-size: 30px;
+    line-height: 36px;
   }
 
   .subtitle_1 {
     font-size: 18px;
+    line-height: 24px;
   }
 
   .date {
     font-size: 12px;
+    line-height: 18px;
+  }
+
+  .ads_container {
+    margin-bottom: 15px;
   }
 
   .listen_article_container {
@@ -471,6 +577,8 @@
     width: 134px;
     height: 38px;
     font-size: 12px;
+    padding: 5px;
+    box-sizing: border-box;
   }
 
   .play_circle {
@@ -488,11 +596,14 @@
 
   .figcaption {
     font-size: 12px;
+    line-height: 16px;
   }
 
   .paragraph {
     width: 100%;
     font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0;
   }
 
   .citation_container {
@@ -542,6 +653,16 @@
     text-align: center;
   }
 
+  .title1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .title2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
   .main_ads2_container_mobile {
     display: flex;
     justify-content: center;
@@ -576,6 +697,17 @@
     width: 288px;
   }
 
+  .topics {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .topics h3 {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
   .ads_google {
     width: 300px;
     height: 114px;
@@ -604,10 +736,31 @@
 
   .nav_article h3 {
     font-size: 16px;
+    line-height: 22px;
   }
 
   .related_container {
     flex-direction: column;
+    gap: 0;
+  }
+
+  .cut_img_mobile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 190px;
+    border-radius: 20px;
+    max-width: 360px;
+  }
+
+  .cut_img_mobile img {
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    width: 100%;
+
   }
 
   .related_section h3 {
