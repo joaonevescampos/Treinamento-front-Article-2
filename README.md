@@ -6,7 +6,7 @@
 
 ## Acesso
 ### Deploy
-- O projeto pode ser [clicando aqui](https://joaonevescampos.github.io/Treinamento-front-Article-2/src/)
+- O projeto pode ser acessado [clicando aqui](https://joaonevescampos.github.io/Treinamento-front-Article-2/src/)
 
 ### Acesso local
 ##### Pré requisitos:
@@ -29,8 +29,11 @@ Confira a idealização do projeto:
 
 ### Prévia
 #### Versão desktop
+![Macbook-Air-joaonevescampos github io](https://github.com/joaonevescampos/Treinamento-front-Article-2/assets/126534395/71abc854-6ec7-4696-8fe0-5568656023fc)
 #### Versão Tablet
+![Galaxy-Tab-S7-joaonevescampos github io](https://github.com/joaonevescampos/Treinamento-front-Article-2/assets/126534395/7dee9d44-7d51-4b1f-8fd3-32f7f7233039)
 #### Versão Mobile
+![iPhone-13-PRO-joaonevescampos github io](https://github.com/joaonevescampos/Treinamento-front-Article-2/assets/126534395/fffb29f4-3d64-43bc-894f-a6b0f4bd944c)
 
 ## Autoria
 - Desenvolvedor: João Victor Neves Campos de Jesus
