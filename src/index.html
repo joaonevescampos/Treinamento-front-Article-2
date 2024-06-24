@@ -22,19 +22,22 @@
     <header>
       <div class="header_container">
         <div class="mobile_group">
-          <div class="menu_container">
+          <button class="menu_container">
             <img src="./assets/images/icons/menu-enfoco.svg" alt="ícone menu">
-          </div>
-          <img src="./assets/images/icons/logo-enfoco.png" alt="logo enfoco" class="logo">
+          </button>
+          <a href="#">
+            <img src="./assets/images/icons/logo-enfoco.png" alt="logo enfoco" class="logo">
+          </a>
         </div>
 
-        <div class="search_container">
+        <form class="search_container">
           <input type="text" placeholder="Busque aqui..." class="search">
-          <img
-            src="./assets/images/icons/search-icon.png"
-            alt="search icon"
-            class="search_icon">
-        </div>
+          <button type="submit" class="search_icon">
+            <img
+              src="./assets/images/icons/search-icon.png"
+              alt="search icon">
+          </button>
+        </form>
       </div>
     </header>
 
@@ -287,7 +290,7 @@
                 name="options">
                 <label for="option_no2">Não, mas irei nessa edição</label>
             </div>
-          <button>Enviar</button>
+          <button type="submit" class="survey_button">Enviar</button>
           </form>
       </div>
 

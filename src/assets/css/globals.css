@@ -42,3 +42,7 @@ html, body {
     background-color: var(--color-white);
     font-family: var(--font-primary);
 }
+
+button {
+    cursor: pointer;
+}
