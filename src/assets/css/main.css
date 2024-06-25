@@ -74,6 +74,8 @@ main {
   border-radius: 31px;
   font-weight: 700;
   margin: 24px;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .play_circle {

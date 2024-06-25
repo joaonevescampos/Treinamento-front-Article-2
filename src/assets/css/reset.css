@@ -107,7 +107,8 @@ body {
 }
 
 ol,
-ul {
+ul,
+menu {
     list-style: none;
 }
 
