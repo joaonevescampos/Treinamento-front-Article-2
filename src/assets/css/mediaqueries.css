@@ -440,7 +440,7 @@
     margin: 12px 0 6px 0;
   }
   
-  .related_article h4 {
+  .related_article p {
     font-size: 16px;
     line-height: 20px;
   }
@@ -804,6 +804,7 @@
 
   .last_news_mobile h3 {
     line-height: 23px;
+    font-weight: 700;
   }
 
   .last_news_mobile p {

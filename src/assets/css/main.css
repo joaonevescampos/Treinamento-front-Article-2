@@ -400,7 +400,7 @@ figure {
   margin: 16px 0 8px 0;
 }
 
-.related_article h4 {
+.related_article p {
   font-size: 20px;
   color: var(--color-gray-8);
   line-height: 28px;
