@@ -430,17 +430,17 @@
     gap: 0;
   }
 
-  .related_section {
+  .related_article {
     margin: 10px 0;
   }
 
-  .related_section h3 {
+  .related_article h3 {
     font-size: 16px;
     line-height: 36px;
     margin: 12px 0 6px 0;
   }
   
-  .related_section h4 {
+  .related_article h4 {
     font-size: 16px;
     line-height: 20px;
   }
@@ -475,7 +475,7 @@
     line-height: 23px;
   }
 
-  .last_news_mobile h3 {
+  .last_news_mobile p {
     font-size: 18px;
     line-height: 24px;
   }
@@ -762,17 +762,17 @@
     width: 100%;
   }
 
-  .related_section {
+  .related_article {
     margin: 10px 0;
   }
 
-  .related_section h3 {
+  .related_article h3 {
     font-size: 16px;
     line-height: 36px;
     margin: 12px 0 6px 0;
   }
   
-  .related_section h4 {
+  .related_article h4 {
     font-size: 16px;
     line-height: 20px;
   }
@@ -807,7 +807,7 @@
     line-height: 23px;
   }
 
-  .last_news_mobile h3 {
+  .last_news_mobile p {
     font-size: 18px;
     line-height: 24px;
   }

@@ -388,11 +388,11 @@ figure {
   color: var(--color-green-0);
 }
 
-.related_section {
+.related_article {
   margin-bottom: 50px;
 }
 
-.related_section h3 {
+.related_article h3 {
   font-size: 18px;
   color: var(--color-green-0);
   line-height: 25px;
@@ -400,7 +400,7 @@ figure {
   margin: 16px 0 8px 0;
 }
 
-.related_section h4 {
+.related_article h4 {
   font-size: 20px;
   color: var(--color-gray-8);
   line-height: 28px;
