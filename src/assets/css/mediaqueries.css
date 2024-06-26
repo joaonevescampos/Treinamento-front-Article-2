@@ -833,6 +833,16 @@
   }
 }
 
+/* TV - Aside  */
+@media screen and (min-width: 1490px) {
+  .aside_ads {
+    left: calc(50% + 400px);
+  }
+  .aside_social_medias {
+    left: calc(50% - 720px);
+  }
+}
+
 /* DESKTOP - Aside  */
 @media screen and (min-width: 1280px) and (max-width: 1490px){
     .aside_ads {

@@ -41,6 +41,8 @@
 html, body {
     background-color: var(--color-white);
     font-family: var(--font-primary);
+    max-width: 1600px;
+    margin: auto;
 }
 
 button {
