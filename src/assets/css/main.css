@@ -192,6 +192,12 @@ figure {
   display: none;
 }
 
+.main_ads2_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main_ads2 {
   margin-top: 34px;
 }
