@@ -507,6 +507,10 @@
     width: calc(100% - 40px);
   }
 
+  .desktop_item {
+    display: none;
+  }
+
   .ads_container_mobile {
     display: flex;
     justify-content: center;
