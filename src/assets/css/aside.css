@@ -43,6 +43,7 @@
   
   .last_news article h3 {
     line-height: 20px;
+    color: var(--color-gray-6);
   }
 
   
