@@ -18,6 +18,7 @@ footer {
   .nav_footer {
     display: flex;
     justify-content: space-between;
+    max-width: 1310px;
   }
   
   .nav_footer h2 {

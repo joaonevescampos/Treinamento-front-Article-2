@@ -1,6 +1,11 @@
 /* DESKTOP VERSION */
 
 main {
+  margin: auto;
+  max-width: 1600px;
+}
+
+.main_container {
   margin-left: 145px;
   margin-right: 481px;
   max-width: 1200px;

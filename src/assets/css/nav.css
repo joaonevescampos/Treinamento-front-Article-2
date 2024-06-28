@@ -1,4 +1,8 @@
 /* DESKTOP VERSION  */
+nav {
+  margin: auto;
+  max-width: 1600px;
+}
 
 .nav_container {
     display: flex;
@@ -79,6 +83,10 @@
   }
   
   /* SECTION  */
+  .header_section_container {
+    max-width: 1600px;
+    margin: auto;
+  }
   
   .header_section {
     display: flex;

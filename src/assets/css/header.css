@@ -1,4 +1,9 @@
 /* DESKTOP VERSION  */
+header {
+  margin: auto;
+  max-width: 1600px;
+}
+
 .header_container {
     display: flex;
     justify-content: space-between;
