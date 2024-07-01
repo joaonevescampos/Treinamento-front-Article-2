@@ -1,32 +1,52 @@
-/* DESKTOP - Main  */
 @media screen and (min-width: 1280px) and (max-width: 1489px) {
-    .main_container {
-      margin-right: 500px;
-      width: 60%;
-    }
-  
-    .main_ads1 {
-      width: 700px;
-    }
-  
-    .statue_img {
-      width: 700px;
-    }
-  
-    .video {
-      width: 720px;
-      height: 405px;
-    }
-  
-    .related_article {
-      margin-bottom: 50px;
-      width: 274px;
-    }
+  /* DESKTOP - Main  */
+  .main_container {
+    margin-right: 500px;
+    width: 60%;
   }
 
-  /* DESKTOP - Footer  */
-@media screen and (min-width: 992px) and (max-width: 1280px) {
-    footer {
-      padding: 30px 50px;
-    }
+  .main_ads1 {
+    width: 700px;
   }
+
+  .statue_img {
+    width: 700px;
+  }
+
+  .video {
+    width: 720px;
+    height: 405px;
+  }
+
+  .related_article {
+    margin-bottom: 50px;
+    width: 274px;
+  }
+
+  /* DESKTOP - Aside  */
+
+  .aside_ads {
+    position: absolute;
+    top: 370px;
+    left: calc(100% - 350px);
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+  }
+
+    /* DESKTOP - Footer  */
+
+  footer {
+    padding: 30px 50px;
+  }
+}
+
+/* TV - Aside  */
+@media screen and (min-width: 1490px) {
+  .aside_ads {
+    left: calc(50% + 400px);
+  }
+  .aside_social_medias {
+    left: calc(50% - 720px);
+  }
+}

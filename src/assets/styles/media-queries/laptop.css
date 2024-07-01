@@ -47,19 +47,18 @@
     .nav_article h3 {
       font-size: 16px;
     }
-  }
-  
+
     /* LAPTOP - Aside  */
-  @media screen and (min-width: 992px) and (max-width: 1280px) {
+
     .aside_social_medias {
-      left: 30px;
-    }
-    .aside_ads {
-      position: absolute;
-      top: 370px;
-      left: calc(100% - 350px);
-      display: flex;
-      flex-direction: column;
-      gap: 34px;
-    }
+        left: 30px;
+      }
+      .aside_ads {
+        position: absolute;
+        top: 370px;
+        left: calc(100% - 350px);
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+      }
   }

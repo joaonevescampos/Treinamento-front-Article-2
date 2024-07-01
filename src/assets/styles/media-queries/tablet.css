@@ -29,13 +29,12 @@
     .logo {
       width: 190px;
     }
-  }
 
-  /* TABLET - Nav  */
-@media screen and (max-width: 992px) and (min-width: 600px) {
     .desktop_item {
       display: none;
     }
+    
+  /* TABLET - Nav  */
   
     .nav_container {
       margin: 16px 50px;
@@ -58,10 +57,8 @@
       height: 80px;
       width: 50px;
     }
-  }
 
-  /* TABLET - Main  */
-@media screen and (min-width: 600px) and (max-width: 992px) {
+     /* TABLET - Main  */
     .main_container {
       margin-left: 50px;
       margin-right: 50px;
@@ -365,6 +362,7 @@
     }
   }
 
+
 /* TABLET and MOBILE - Aside  */
 @media screen and (max-width: 992px) {
     .aside_ads {
@@ -383,5 +381,56 @@
     .aside_social_medias img {
       width: 36px;
       height: 36px;
+    }
+
+    /* TABLET and MOBILE - Footer  */
+    footer {
+      padding: 30px 20px;
+      height: 521px;
+    }
+  
+    .desktop_items {
+      display: none;
+    }
+  
+    .mobile_arrow {
+      display: block;
+      font-size: 24px;
+      color: var(--color-pink-0);
+    }
+  
+    .nav_footer {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .nav_footer section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+  
+    .nav_footer h1 {
+      font-size: 20px;
+    }
+  
+    .member_img {
+      width: 143px;
+      margin: 30px 0;
+    }
+  
+    .rights {
+      flex-direction: row;
+      gap: 30px;
+    }
+  
+    .rights img {
+      width: 134px;
+    }
+  
+    .copyright {
+      justify-content: start;
+      font-size: 12px;
     }
   }
