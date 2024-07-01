@@ -142,6 +142,12 @@
     width: 720px;
     height: 405px;
   }
+
+  .related_article {
+    margin-bottom: 50px;
+    width: 274px;
+  }
+
 }
 
 /* LAPTOP - Main  */
@@ -177,13 +183,13 @@
     width: 500px;
   }
 
-  .main_ads2 {
-    width: 100%;
-  }
-
   .video {
     width: 560px;
     height: 315px;
+  }
+
+  .related_article img {
+    width: 100%;
   }
 
   .nav_article {
@@ -743,6 +749,7 @@
 
   .related_container {
     flex-direction: column;
+    align-items: center;
     gap: 0;
   }
 
@@ -766,6 +773,7 @@
 
   .related_article {
     margin: 10px 0;
+    width: 100%;
   }
 
   .related_article h3 {
@@ -852,7 +860,7 @@
   .aside_ads {
     position: absolute;
     top: 370px;
-    left: calc(100% - 380px);
+    left: calc(100% - 350px);
     display: flex;
     flex-direction: column;
     gap: 34px;

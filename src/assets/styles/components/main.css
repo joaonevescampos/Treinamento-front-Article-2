@@ -205,6 +205,7 @@ figure {
 
 .main_ads2 {
   margin-top: 34px;
+  width: 100%;
 }
 
 .title1 {
@@ -326,7 +327,9 @@ figure {
 
 .nav_article_container {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
+  width: 100%;
 }
 
 .nav_article {
@@ -334,11 +337,19 @@ figure {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 420px;
+  width: 100%;
   height: 105px;
   box-shadow: 1px 2px 7px var(--color-gray-3);
   border-radius: 12px;
   box-sizing: border-box;
+}
+
+.cut_img_mobile {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 274px;
 }
 
 .previous_article {
@@ -401,6 +412,7 @@ figure {
 
 .related_article {
   margin-bottom: 50px;
+  width: 274px;
 }
 
 .related_article h3 {

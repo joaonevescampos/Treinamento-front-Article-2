@@ -1,0 +1,32 @@
+/* DESKTOP - Main  */
+@media screen and (min-width: 1280px) and (max-width: 1489px) {
+    .main_container {
+      margin-right: 500px;
+      width: 60%;
+    }
+  
+    .main_ads1 {
+      width: 700px;
+    }
+  
+    .statue_img {
+      width: 700px;
+    }
+  
+    .video {
+      width: 720px;
+      height: 405px;
+    }
+  
+    .related_article {
+      margin-bottom: 50px;
+      width: 274px;
+    }
+  }
+
+  /* DESKTOP - Footer  */
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    footer {
+      padding: 30px 50px;
+    }
+  }
